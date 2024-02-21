@@ -19,16 +19,17 @@ The data consists of 38,576 rows and following columns:
 14.	Instalment: Monthly repayment amount.
 15.	Interest Rate: Cost of borrowing.
 16.	Loan Amount: Principal amount borrowed.
+
 ### Methodology
-	I used Postgres SQL to analyze the data. The data cleaning posed little challenge as data was found be mostly normal and clean. Following changes were made before the analysis:
-•	I changed the data style of key date columns to 'ISO,DMY'. 
+•	I used Postgres SQL to analyze the data. The data cleaning posed a little challenge as data was found to be mostly normal and clean. The following changes were made before the analysis:
+•       I changed the data style of key date columns to 'ISO,DMY'. 
 •	I changed the datatype of these date columns to varchar to import the data and after cleaning, they were changed into date type.
 •	The annual income column was changed to float data type. 
 
 ### Approach
-There were a lot of possibilities for the data, but I decided to focus on following aspects of analysis: 
+There were a lot of possibilities for the data, but I decided to focus on the following aspects of analysis: 
 1.	Descriptive Statistics and Data Summary:
-o	Calculate the average of KPIs such as annual income, debt to income ratio, installment, interest rate, total amount, and payments etc.
+o	 Calculate the average of KPIs such as annual income, debt-to-income ratio, installment, interest rate, total amount, and payments etc.
 2.	Loan Status Analysis:
 o	Investigate the distribution of loan statuses (loan_status).
 o	Compare default rates for different loan statuses.
