@@ -1,8 +1,9 @@
 # Bank  Loan
 ##Summary
+I have tried to showcase my skillset in Postgresby analyzing the data using CTEs, Key window functions, and aggregations. The project deals with loan application data and goal is to analyze the KPIs and factors impacting the outcome of loans. 
 ### About Data
 The Bank Loan Analysis Report aims to provide actionable insights into loan applications, approvals, and related metrics.
-The data consists of 38,576 rows and following columns:
+The data consists of 38,576 rows and the following columns:
 1.	Loan ID: Unique identifier for loans.
 2.	Address State: Borrower location for regional analysis.
 3.	Employment Length: Indicates employment stability.
