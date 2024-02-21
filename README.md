@@ -21,10 +21,10 @@ The data consists of 38,576 rows and following columns:
 16.	Loan Amount: Principal amount borrowed.
 
 ### Methodology
-•	I used Postgres SQL to analyze the data. The data cleaning posed a little challenge as data was found to be mostly normal and clean. The following changes were made before the analysis:
-•       I changed the data style of key date columns to 'ISO,DMY'. 
-•	I changed the datatype of these date columns to varchar to import the data and after cleaning, they were changed into date type.
-•	The annual income column was changed to float data type. 
+   I used Postgres SQL to analyze the data. The data cleaning posed a little challenge as data was found to be mostly normal and clean. The following changes were made before the analysis.<br>
+I changed the data style of key date columns to 'ISO,DMY'.<br>
+I changed the datatype of these date columns to varchar to import the data and after cleaning, they were changed into date type.<br>
+The annual income column was changed to float data type. 
 
 ### Approach
 There were a lot of possibilities for the data, but I decided to focus on the following aspects of analysis: 
