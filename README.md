@@ -1,5 +1,5 @@
 # Bank  Loan
-###Summary
+### Summary
 I have tried to showcase my skillset in Postgresby analyzing the data using CTEs, Key window functions, and aggregations. The project deals with loan application data and goal is to analyze the KPIs and factors impacting the outcome of loans. 
 ### About Data
 The Bank Loan Analysis Report aims to provide actionable insights into loan applications, approvals, and related metrics.
